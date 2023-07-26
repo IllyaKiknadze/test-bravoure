@@ -9,3 +9,4 @@
 ```
 Don't forget to add your YouTube API key (variable is in the bottom of .env)
 
+That's it now just trigger ``/api/popular-videos`` url
