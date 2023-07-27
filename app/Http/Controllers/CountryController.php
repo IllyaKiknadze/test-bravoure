@@ -26,7 +26,7 @@ class CountryController extends Controller
         }
 
         $country = $this->countryService->getCountry(
-            country: $request->get('country'),
+            countryAbbreviation: $request->get('country'),
             offset: $request->get('offset'),
             page: $request->get('page')
         );
